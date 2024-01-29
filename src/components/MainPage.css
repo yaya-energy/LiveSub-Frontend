@@ -1,0 +1,21 @@
+/* src/components/MainPage.css */
+
+.main-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.main-header {
+  background-color: #005A9C;
+  color: white;
+  padding: 20px 0;
+}
+
+.main-header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.main-header p {
+  font-size: 1.2em;
+}
