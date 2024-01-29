@@ -1,0 +1,72 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding and margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* A basic reset for form styles */
+form input,
+form button,
+form textarea,
+form select {
+  margin: 0;
+}
+
+/* Set core root defaults */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Set a default color */
+:root {
+  --primary-color: #005A9C; /* Blue color for primary actions */
+  --text-color: #333; /* Dark grey color for text */
+  --background-color: #fff; /* White color for backgrounds */
+}
+
+/* Apply the root colors */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
