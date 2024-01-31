@@ -1,7 +1,6 @@
-// src/App.js
 
 import React from 'react';
-import MainPage from './components/MainPage'; // Import MainPage component
+import MainPage from './components/MainPage';
 
 const App = () => {
   return (

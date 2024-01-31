@@ -1,21 +1,83 @@
 /* src/components/MainPage.css */
 
 .main-page {
-  text-align: center;
-  padding: 20px;
+  font-family: 'Arial', sans-serif;
 }
 
 .main-header {
   background-color: #005A9C;
   color: white;
   padding: 20px 0;
+  text-align: center;
 }
 
 .main-header h1 {
   margin: 0;
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 
 .main-header p {
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
+
+.feature-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.mission-statement,
+.key-features,
+.target-audience,
+.impact {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-left: 5px solid #005A9C;
+}
+
+.mission-statement h2,
+.key-features h2,
+.target-audience h2,
+.impact h2 {
+  margin-bottom: 10px;
+  color: #005A9C;
+}
+
+/* Add additional styles for list items in key features */
+.key-features ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0;
+}
+
+.key-features li {
+  margin-bottom: 10px; /* Add space between feature items */
+  padding-left: 20px;
+  position: relative;
+}
+
+.key-features li::before {
+  content: '✔';
+  color: #28a745; /* Example: green checkmark for visibility */
+  position: absolute;
+  left: 0;
+}
+
+.main-footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .feature-section {
+    flex-direction: column;
+  }
+}
+
+/* You can add more responsive design rules and other styles as needed */
