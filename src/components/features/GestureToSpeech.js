@@ -2,14 +2,16 @@ import React from 'react';
 import '../assets/styles/main.css';
 
 const GestureToSpeech = () => {
-  // Placeholder function for handling gesture input
+ 
   const handleGestureInput = () => {
-    // Logic for handling gestures goes here
-    console.log('Gesture input received and processed to speech');
+    // Logic for recognizing gestures and converting to speech
+    const speech = 'This is a converted speech from gesture'; // Placeholder
+    console.log(speech);
+
   };
 
   return (
-    <div className="gesture-to-speech">
+    <div className="gesture-to-speech" style={{ padding: '20px', background: '#fff', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', margin: '20px', borderRadius: '4px' }}>
       <h2>Gesture to Speech</h2>
       <p>Convert your sign language gestures into spoken words.</p>
       {/* This could be a canvas or a video element where gestures are captured */}

@@ -32,8 +32,8 @@
 .impact {
   margin: 20px;
   padding: 20px;
-  background-color: #f7f7f7;
-  border-left: 5px solid #005A9C;
+  background-color: #fff; /* White background for sections */
+  border: 1px solid #e1e1e1; /* Light borders for definition */
 }
 
 .mission-statement h2,
@@ -73,6 +73,10 @@
   width: 100%;
 }
 
+.main-page {
+  font-size: 18px; 
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .feature-section {
@@ -80,4 +84,3 @@
   }
 }
 
-/* You can add more responsive design rules and other styles as needed */
